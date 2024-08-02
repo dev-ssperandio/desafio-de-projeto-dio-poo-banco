@@ -1,7 +1,7 @@
 public class ContaPoupanca extends Conta{
 
-    public ContaPoupanca(Cliente cliente) {
-        super(cliente);
+    public ContaPoupanca(Cliente cliente, String tipoConta, Banco banco) {
+        super(cliente, tipoConta, banco);
     }
 
     @Override
